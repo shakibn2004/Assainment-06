@@ -1,0 +1,24 @@
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+.lenear-color {
+    color: rgba(255, 255, 255, 0);
+    background-image: linear-gradient(to left, #4F39F6, #9514FA);
+    background-clip: text;
+}
+.lenear-bg {
+    background-image: linear-gradient(to left, #4F39F6, #9514FA);
+}
+.lenear-border {
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to left, #4F39F6, #9514FA) border-box;
+    border: 2px solid transparent;
+}
+
+.hr-line {
+    content: '';
+    width: 2px;
+    height: fit-content;
+    background: #000;
+}
