@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify'
 import GetStart from './Components/GetStart/GetStart'
 import Pricing from './Components/Pricing/Pricing'
 import TopFooter from './Components/TopFooter/TopFooter'
+import Footer from './Components/Footer/Footer'
 
 
 const fetchData = async() => {
@@ -32,6 +33,7 @@ function App() {
     <GetStart />
     <Pricing />
     <TopFooter />
+    <Footer />
     </>
   )
 }

@@ -6,7 +6,7 @@ const Navbar = ({ selectedProduct, setRenderCard }) => {
 
   return (
     <header className="bg-white sticky top-0 z-10">
-      <nav className="flex max-w-300 w-[95%] lg:w-[75%] mx-auto justify-between items-center py-7">
+      <nav className="flex max-w-300 w-[95%] lg:w-[75%] mx-auto justify-between items-center py-5">
         <div className="nav-start">
           <a className="text-4xl font-bold lenear-color py-1" href="#">
             DigiTools
