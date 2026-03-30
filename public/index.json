@@ -12,7 +12,8 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "FaPenNib"
+    "icon": "FaPenNib",
+    "image": "../src/assets/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "FaPalette"
+    "icon": "FaPalette",
+    "image": "../src/assets/design-tool.png"
   },
   {
     "id": 3,
@@ -42,7 +44,8 @@
       "Commercial use",
       "No attribution"
     ],
-    "icon": "FaCamera"
+    "icon": "FaCamera",
+    "image": "../src/assets/writing_2327400 1.png"
   },
   {
     "id": 4,
@@ -57,7 +60,8 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "FaCogs"
+    "icon": "FaCogs",
+    "image": "../src/assets/operation.png"
   },
   {
     "id": 5,
@@ -72,7 +76,8 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "FaFileAlt"
+    "icon": "FaFileAlt",
+    "image": "../src/assets/portfolio.png"
   },
   {
     "id": 6,
@@ -87,7 +92,8 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "FaShareAlt"
+    "icon": "FaShareAlt",
+    "image": "../src/assets/social-media.png"
   },
   {
     "id": 7,
