@@ -7,6 +7,7 @@ import { Suspense, useState } from 'react'
 import { ToastContainer } from 'react-toastify'
 import GetStart from './Components/GetStart/GetStart'
 import Pricing from './Components/Pricing/Pricing'
+import TopFooter from './Components/TopFooter/TopFooter'
 
 
 const fetchData = async() => {
@@ -30,6 +31,7 @@ function App() {
     </Suspense>
     <GetStart />
     <Pricing />
+    <TopFooter />
     </>
   )
 }
