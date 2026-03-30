@@ -4,7 +4,7 @@ import Banner from "../../assets/banner.png"
 
 const Hero = () => {
   return (
-    <section className="grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-15 max-w-300 w-[75%] mx-auto place-items-center py-15">
+    <section className="grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-15 max-w-300 w-[95%] lg:w-[75%] mx-auto place-items-center py-15">
       <div className="hero-start grid justify-items-center lg:justify-items-start lg:row-start-1">
         <div className="flex gap-2 items-center bg-[#E1E7FF] w-fit px-4 py-2 rounded-full">
           <img src={Online} className="h-fit" alt="" />

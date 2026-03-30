@@ -42,7 +42,7 @@ setTotalPrice(0)
  
 
   return (
-    <section className="py-30 max-w-300 w-[75%] mx-auto space-y-10">
+    <section className="py-30 max-w-300 w-[95%] lg:w-[75%] mx-auto space-y-10">
       <div className="tool-top grid justify-items-center text-center">
         <h1 className="text-5xl font-extrabold ">Premium Digital Tools</h1>
         <p className="my-4">

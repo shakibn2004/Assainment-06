@@ -1,12 +1,12 @@
 import { Menu, ShoppingCart, X } from "lucide-react";
 import React, { useState } from "react";
 
-const Navbar = ({selectedProduct, setRenderCard}) => {
+const Navbar = ({ selectedProduct, setRenderCard }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
     <header className="bg-white sticky top-0 z-10">
-      <nav className="flex max-w-300 w-[75%] mx-auto justify-between items-center py-7">
+      <nav className="flex max-w-300 w-[95%] lg:w-[75%] mx-auto justify-between items-center py-7">
         <div className="nav-start">
           <a className="text-4xl font-bold lenear-color py-1" href="#">
             DigiTools
@@ -24,9 +24,22 @@ const Navbar = ({selectedProduct, setRenderCard}) => {
         </div>
 
         <div className="nav-end gap-4 items-center hidden lg:flex">
-          <div className="relative" onClick={()=>{setRenderCard(false)}}>
+          <div
+            className="relative"
+            onClick={() => {
+              setRenderCard(false);
+            }}
+          >
             <ShoppingCart className="cursor-pointer" />
-            <div className={`${!selectedProduct.length?'hidden':'flex'} items-center justify-center w-4 h-4 bg-red-500 rounded-full absolute top-[-5px] left-[10px]`}><p className="text-white text-center text-sm">{selectedProduct.length}</p></div>
+            <div
+              className={`${
+                !selectedProduct.length ? "hidden" : "flex"
+              } items-center justify-center w-4 h-4 bg-red-500 rounded-full absolute -top-1.25 left-2.5`}
+            >
+              <p className="text-white text-center text-sm">
+                {selectedProduct.length}
+              </p>
+            </div>
           </div>
           <button className="cursor-pointer">Login</button>
           <button className="font-semibold px-4 py-3 lenear-bg text-white rounded-full cursor-pointer">
@@ -35,14 +48,35 @@ const Navbar = ({selectedProduct, setRenderCard}) => {
         </div>
 
         <div className="menu lg:hidden">
-          <Menu size={48} onClick={() => setShowMenu(true)} />
+          <div className="flex items-center gap-4">
+            <div
+              className="relative"
+              onClick={() => {
+                setRenderCard(false);
+              }}
+            >
+              <ShoppingCart className="cursor-pointer" />
+              <div
+                className={`${
+                  !selectedProduct.length ? "hidden" : "flex"
+                } items-center justify-center w-4 h-4 bg-red-500 rounded-full absolute -top-1.25 left-2.5`}
+              >
+                <p className="text-white text-center text-sm">
+                  {selectedProduct.length}
+                </p>
+              </div>
+            </div>
+            <Menu size={30} onClick={() => setShowMenu(true)} />
+          </div>
           <div
-            className={`fixed top-0 right-0 max-w-90 w-[80%] h-screen bg-white pl-9 transition-all duration-400 ease-in-out ${showMenu ? "translate-x-0" : "translate-x-full"}`}
+            className={`fixed top-0 right-0 max-w-90 w-[80%] h-screen bg-white pl-9 transition-all duration-400 ease-in-out ${
+              showMenu ? "translate-x-0" : "translate-x-full"
+            }`}
           >
             <X
               onClick={() => setShowMenu(false)}
-              className="ml-auto mr-16 mt-8"
-              size={48}
+              className="ml-auto mr-10 mt-8"
+              size={30}
             />
             <button className="cursor-pointer text-2xl mt-9">Login</button>
             <div className="nav-middle my-6">

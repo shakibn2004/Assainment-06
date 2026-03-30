@@ -5,6 +5,8 @@ import Overview from './Components/Overview/Overview'
 import ToolsCards from './Components/ToolCards/ToolsCards'
 import { Suspense, useState } from 'react'
 import { ToastContainer } from 'react-toastify'
+import GetStart from './Components/GetStart/GetStart'
+import Pricing from './Components/Pricing/Pricing'
 
 
 const fetchData = async() => {
@@ -26,6 +28,8 @@ function App() {
     <Suspense fallback={<div className="loading loading-ring loading-xl w-fit mx-auto mt-20"></div>}>
       <ToolsCards dataPromised={dataPromised} setSelectedProduct={setSelectedProduct} selectedProduct={selectedProduct} renderCard={renderCard} setRenderCard={setRenderCard}/>
     </Suspense>
+    <GetStart />
+    <Pricing />
     </>
   )
 }
