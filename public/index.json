@@ -45,7 +45,7 @@
       "No attribution"
     ],
     "icon": "FaCamera",
-    "image": "../src/assets/writing_2327400 1.png"
+    "image": "../src/assets/pr.jpg"
   },
   {
     "id": 4,
@@ -108,7 +108,8 @@
       "Payment integration",
       "Inventory management"
     ],
-    "icon": "FaShoppingCart"
+    "icon": "FaShoppingCart",
+    "image":"../src/assets/e-com.jpg"
   },
   {
     "id": 8,
@@ -123,6 +124,7 @@
       "100+ effects",
       "Audio enhancement"
     ],
-    "icon": "FaVideo"
+    "icon": "FaVideo",
+    "image":"../src/assets/edit.jpeg"
   }
 ]

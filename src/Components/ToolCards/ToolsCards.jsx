@@ -69,7 +69,7 @@ setTotalPrice(0)
               <div className="tool-card space-y-4 p-6 shadow-[0_0_2px_black] rounded-2xl transition-all duration-700 hover:scale-105">
                 <div className="flex justify-between">
                   <img
-                    className="w-fit h-fit p-3 shadow-[0_0_2px_black]/40 rounded-full flex items-center justify-center mt-1"
+                    className="w-fit h-fit p-3 shadow-[0_0_2px_black]/40 rounded-full flex items-center justify-center mt-1 overflow-visible"
                     src={item.image}
                     alt="Writting"
                   />
@@ -125,7 +125,7 @@ setTotalPrice(0)
               return (
                 <div className="flex flex-col md:flex-row gap-8 md:gap-0 justify-between items-center p-6 bg-[#F9FAFC] rounded-2xl">
                   <div className="cart-left flex gap-2">
-                    <img src={Writting} className="w-15 h-15 bg-white p-2 rounded-full" alt="" />
+                    <img src={item.image} className="w-15 h-15 bg-white p-2 rounded-full overflow-visible" alt="" />
                     <div className="content space-y-2">
                       <h1 className="text-[20px] font-semibold">{item.name}</h1>
                       <p className="text-[#627382]">${item.price}</p>
