@@ -183,7 +183,7 @@ const ToolsCards = ({
           </div>
         ) : (
           <div className="shadow-[0_0_2px_black] col-span-3 flex items-center justify-center py-10 rounded-2xl">
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-3xl font-bold px-3 text-center">
               Your Cart Is Empty! Buy Something
             </h1>
           </div>

@@ -13,7 +13,7 @@
       "Grammar checker"
     ],
     "icon": "FaPenNib",
-    "image": "../src/assets/writing_2327400 1.png"
+    "image": "writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Commercial license"
     ],
     "icon": "FaPalette",
-    "image": "../src/assets/design-tool.png"
+    "image": "design-tool.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "No attribution"
     ],
     "icon": "FaCamera",
-    "image": "../src/assets/pr.jpg"
+    "image": "pr.jpg"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Custom workflows"
     ],
     "icon": "FaCogs",
-    "image": "../src/assets/operation.png"
+    "image": "operation.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Export to PDF"
     ],
     "icon": "FaFileAlt",
-    "image": "../src/assets/portfolio.png"
+    "image": "portfolio.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Analytics dashboard"
     ],
     "icon": "FaShareAlt",
-    "image": "../src/assets/social-media.png"
+    "image": "social-media.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Inventory management"
     ],
     "icon": "FaShoppingCart",
-    "image":"../src/assets/e-com.jpg"
+    "image":"e-com.jpg"
   },
   {
     "id": 8,
@@ -125,6 +125,6 @@
       "Audio enhancement"
     ],
     "icon": "FaVideo",
-    "image":"../src/assets/edit.jpeg"
+    "image":"edit.jpeg"
   }
 ]

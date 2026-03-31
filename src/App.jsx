@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer'
 
 
 const fetchData = async() => {
-    const res = await fetch('/index.json');
+    const res = await fetch('./index.json');
     return res.json();
 }
 const dataPromised = fetchData()
