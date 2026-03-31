@@ -1,16 +1,33 @@
-# React + Vite
+# Name Of The Project
+DigiTools Premium Subcription
+<br>
+<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Discription 
+I created a Ai tools web app for different types of works on a single platform.
+<br>
+<br>
 
-Currently, two official plugins are available:
+# Technology
+* Javascript
+* React.js
+* Tailwind CSS
+* Daisy UI
+* Lucide Icon
+* React Toast
+* JSON 
+<br>
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Features 
+* By default all the products show .
+* Clicking on the cart button it will render the selected items only.
+* Clicking on the prodduct button all the product will show.
+* Clicking on the BUY NOW button the item added to cart and button text changed to ADDED TO CART and show a nice toast.
+* The total selected item count will show on the navbar cart icon.By default total count will be hidden.
+* Clicking on the navbar cart icon the selected item will render on the cart section.
+* On the cart section each product has Remove button clicking on it the item delete from the cart and show a nice toast and enable for buy again.
+* Click on the 'Proceed to Checkout' button the cart will be empty and show a nice toast.
+* Clicking on the Remove all button the cart will be empty and show a nice toast.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
