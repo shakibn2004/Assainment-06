@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "../../assets/user.png";
 import Package from "../../assets/package.png";
 import Rocket from "../../assets/rocket.png"

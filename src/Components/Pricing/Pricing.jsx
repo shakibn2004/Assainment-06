@@ -24,7 +24,8 @@ const Pricing = () => {
             </ul>
             <button className="btn lenear-bg rounded-full text-white mt-auto">Get Started Free</button>
         </div>
-        <div className="card p-6 bg-[#F9FAFC] lenear-bg text-white -z-1">
+        <div className="card p-6 bg-[#F9FAFC] lenear-bg text-white -z-1 relative">
+            <h4 className="absolute px-2 py-1 rounded-full bg-[#FEF3C6] text-[#BB4D00] -top-3 left-[50%] translate-x-[-50%]">Most Popular</h4>
             <h1 className="text-2xl font-bold">Pro</h1>
             <p className="text-[#627382] mt-1">Best for professionals</p>
             <h1 className="text-4xl my-7">$29<span className="text-[#627382] text-lg font-normal">/Month</span></h1>

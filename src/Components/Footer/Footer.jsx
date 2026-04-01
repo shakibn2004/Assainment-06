@@ -1,4 +1,3 @@
-import React from "react";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -56,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="border-[#FAFAFA] mt-20" />
-        <div className="bottom-footer flex justify-between mt-10">
+        <div className="bottom-footer flex flex-col md:flex-row gap-2 justify-between mt-10">
           <p>© 2026 Digitools. All rights reserved.</p>
           <ul className="flex gap-8">
             <li>Privacy Policy</li>

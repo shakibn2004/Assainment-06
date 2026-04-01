@@ -34,9 +34,9 @@ const Navbar = ({ selectedProduct, setRenderCard }) => {
             <div
               className={`${
                 !selectedProduct.length ? "hidden" : "flex"
-              } items-center justify-center w-4 h-4 bg-red-500 rounded-full absolute -top-1.25 left-2.5`}
+              } items-center justify-center w-4 h-4 bg-red-500 cursor-pointer rounded-full absolute -top-1.25 left-2.5`}
             >
-              <p className="text-white text-center text-sm">
+              <p className="text-white text-center text-sm cursor-pointer">
                 {selectedProduct.length}
               </p>
             </div>

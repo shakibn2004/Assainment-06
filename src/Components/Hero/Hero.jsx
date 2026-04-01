@@ -10,7 +10,7 @@ const Hero = () => {
           <img src={Online} className="h-fit" alt="" />
           <h4 className="lenear-color">New: AI-Powered Tools Available</h4>
         </div>
-        <h1 className="my-4 text-6xl font-extrabold leading-20 py-5">Supercharge Your Digital Workflow</h1>
+        <h1 className="my-4 text-5xl font-extrabold leading-20 py-5">Supercharge Your Digital Workflow</h1>
         <p className="text-[#627382] text-wrap text-xl mb-8">
           Access premium AI tools, design assets, templates, and productivity
           software—all in one place. Start creating faster today. Explore
